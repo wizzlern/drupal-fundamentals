@@ -24,55 +24,69 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-        <section data-markdown="slides/day2/000-title.md"></section>
+        <section data-markdown="slides/day2/000-title.md" 
+        		data-background="assets/background/title.png">
+        </section>
         <section data-markdown="slides/day2/001-about-wizzlern.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
         <section data-markdown="slides/day2/002-outline.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
         <section data-markdown="slides/day2/003-your-site.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
         <section data-markdown="slides/day2/010-drupal-community.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
         <section data-markdown="slides/day2/020-modules.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
         <section data-markdown="slides/day2/030-views.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
         <section data-markdown="slides/day2/040-administration-pages.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
         <section data-markdown="slides/day2/050-more-views.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
         <section data-markdown="slides/day2/060-configuration-management.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
         <section data-markdown="slides/day2/070-multilingual.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
         <section data-markdown="slides/day2/900-summary.md"
                  data-separator-vertical="^\n--vv--\n"
-                 data-separator-notes="^Note:">
+                 data-separator-notes="^Note:"
+                 data-background="assets/background/slide.png">
         </section>
-        <section data-markdown>
+        <section data-markdown data-background="assets/background/title.png">
           <script type="text/template">
             # License
             <!-- .slide: class="layout-title-page" -->
+            
             This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
           </script>
         </section>
@@ -93,10 +107,14 @@
 					{ src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true },
 					{ src: 'node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				],
-        history: true,
-        controlsTutorial: false,
-        center: false,
-        transition: 'none',
+				history: true,
+				controlsTutorial: false,
+				center: false,
+				transition: 'none',
+				backgroundTransition: 'none',
+				width: '760',
+				height: '580',
+				margin: 0.15,
 			});
 		</script>
 	</body>
