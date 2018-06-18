@@ -1,7 +1,0 @@
-- Add Drupal install profile
-- Add exercise files
-- Add readme.md
-- Redo wirefames and diagrams in sharable format (svg?)
-- Translate images
-- Load slides from slides directory
-- Make slides printable
